@@ -1,3 +1,5 @@
+<!-- STOP SNOOPING IN OUR REPOSITORIES YOU ABSOLUTE LOSERS..... -->
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -15,6 +17,36 @@
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"> </script>
     </head>
     <body>
-        ...
+        <div class="container">
+            <div class="row">
+                <div class="card your-device shadow-lg p-3 mb-5 bg-white rounded">
+                    <img class="card-img-top" src="static/images/you.png" alt="Your Device">
+                    <div class="card-body">
+                    <hr>
+                    <p class="card-text text-center"> Input your message here to send it to your IoT connected device!‏‏‎ ‎‏‏‎  ‎‎‎‎‎‎‎‎‎</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="SendMessages"></label>
+                            <input type="text" class="form-control" id="SendMessages" aria-describedby="SendMessages">
+                        </div>
+                        <button type="submit" class="btn btn-info btn-block"> Send Message </button>
+                    </form>
+                    </div>
+                </div>
+                <div class="card your-device shadow-lg p-3 mb-5 bg-white rounded">
+                    <img class="card-img-top" src="static/images/your_device.png" alt="Your Device">
+                    <div class="card-body">
+                    <hr>
+                    <p class="card-text text-center"> Messages which you have sent to your device will be shown here. </p>
+                    <form>
+                        <div class="form-group">
+                            <label for="MessagesReceived"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
