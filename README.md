@@ -1,5 +1,9 @@
 <h1> <div align="center"> CA4017 - Internet Of Things Assignment </div> </h1>
 
+<hr>
+<div align="center"> <img src="readme-image.PNG"> </div>
+<hr>
+
 <h2> Project Description </h2>
 <p> </p>
 
