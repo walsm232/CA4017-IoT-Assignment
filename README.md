@@ -7,7 +7,7 @@
 <h2> Project Description </h2>
 <p> The aim of this assignment was to connect an IoT device to AWS IoT Core using their connection kit. This can then enable you to subscribe to topics in order to view messages being sent by your IoT devices. You can also use the AWS IoT Core Console in order to publish messages to your devices. </p>
   
-<p> We decided to create prototypes for a potential mobile / web application which could be used to manage your IoT devices, their settings, and the access to these devices all in one place. This could be developed using the AWSIoTSDK for Python possibly with the use of Flask, HTML, CSS, and Javascript. </p>
+<p> We decided to create prototypes for a potential mobile / web application which could be used to manage your IoT devices, their settings, and the access to these devices all in one place. This could be developed using the AWSIoTSDK for Python possibly with the use of Django or Flask, HTML, CSS, and Javascript. </p>
 <div align="center"> <img src="prototype-design/1) Dashboard.PNG"> </div>
 <br>
 
