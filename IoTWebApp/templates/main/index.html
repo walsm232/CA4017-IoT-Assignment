@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+IoT Device Manager
+{% endblock title %}
+
+{% block content %}
+<div class="container py-4">
+    <header class="text-center">
+        <h1 class="display-6 font-weight-bold"> IoT Device Management </h1>
+        <p class="font-italic text-muted mb-0"> All your IoT connected devices can be managed below! </p>
+    </header>
+</div>
+<div class="">
+    <div class="container py-3">
+        <div class="container mt-1">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img src="{% static 'images/amazon-alexa.jpg' %}" alt="Amazon Alexa" class="rounded-circle" width="100" height="100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Amazon Alexa </h4>
+                            <h6 class="card-subtitle text-center"> </h6>
+                            <p class="year text-center"> </p>
+                            <a href=""> <button class="btn btn-info btn-block"> Configure </button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img src="{% static 'images/smart-fridge.png' %}" alt="Smart Fridge" class="rounded-circle" width="100" height="100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Smart Fridge </h4>
+                            <h6 class="card-subtitle text-center"> </h6>
+                            <p class="year text-center"> </p>
+                            <a href=""> <button class="btn btn-info btn-block"> Configure </button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img src="{% static 'images/amazon-echo.jpg' %}" alt="Amazon Echo" class="rounded-circle" width="100" height="100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Amazon Echo </h4>
+                            <h6 class="card-subtitle text-center"> </h6>
+                            <p class="year text-center"> </p>
+                            <a href=""> <button class="btn btn-info btn-block"> Configure </button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                        <img src="{% static 'images/doorbell-cam.PNG' %}" alt="Doorbell Cam" class="rounded-circle" width="100" height="100">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Doorbell Cam </h4>
+                            <h6 class="card-subtitle text-center"> </h6>
+                            <p class="year text-center"> </p>
+                            <a href=""> <button class="btn btn-info btn-block"> Configure </button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+
+<!-- Script to Return Message in Console when a Document has Loaded Correctly -->
+<script>
+$(document).ready(function(){
+    console.log('Page has loaded correctly')
+})
+</script>
+
+{% endblock scripts %}
+

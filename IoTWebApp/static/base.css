@@ -1,0 +1,4 @@
+/* Styling for Base HTML file */
+/* !important tag is needed on entries in order to override certain Bootstrap styling */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
