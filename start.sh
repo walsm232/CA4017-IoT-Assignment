@@ -29,5 +29,5 @@ fi
 
 # run pub/sub sample app using certificates downloaded in package
 printf "\nRunning pub/sub sample application...\n"
-python MessagingSystem.py -e a1ya37nch3ivhy-ats.iot.eu-west-1.amazonaws.com -r root-CA.crt -c CA4017.cert.pem -k CA4017.private.key
-printf "\Connected to your device successfully!\n"
+python aws-iot-device-sdk-python/samples/basicPubSub/basicPubSub.py -e a1ya37nch3ivhy-ats.iot.eu-west-1.amazonaws.com -r root-CA.crt -c CA4017.cert.pem -k CA4017.private.key
+
