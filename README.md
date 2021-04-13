@@ -9,10 +9,7 @@
   
 <p> We decided to also create prototypes for a potential mobile / web application which could be used to manage your IoT devices, their settings, and the access to these devices all in one place. This could be developed using the AWSIoTSDK for Python possibly with the use of Flask, HTML, CSS, and Javascript. </p>
 
-<p> </p>
-
-<p> </p>
-  
+<div align="center"> <img src="prototype-design/1) Dashboard.PNG"> </div>
 <hr>
 
 <h2> YouTube Video Demo </h2>
