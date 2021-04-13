@@ -14,48 +14,60 @@ IoT Device Manager
 </div>
 <div class="">
     <div class="container py-3">
-        <div class="container mt-1">
+        <div class="container dashboard mt-1">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <img src="{% static 'images/amazon-alexa.jpg' %}" alt="Smart Fridge" class="rounded-circle" width="100" height="100">
+                    <div class="card shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+                        <img class="card-img-top" src="{% static 'images/amazon-alexa.jpg' %}" alt="Smart Fridge" width="100" height="100">
                         <div class="card-body">
                             <h4 class="card-title text-center"> Amazon Alexa </h4>
                             <p class="card-subtitle text-center text-muted mb-3"> Location: Kitchen </p>
-                            <a href=""> <button class="btn btn-primary btn-block mb-2"> Connect </button> </a>
+                            <form action="{% url 'ConnectDevice' %}" method="POST">
+                                {% csrf_token %}
+                                <button class="btn btn-primary btn-block mb-2"> Connect </button>
+                            </form>
                             <a href=""> <button class="btn btn-dark btn-block"> Configure </button> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <img src="{% static 'images/smart-fridge.png' %}" alt="Smart Fridge" class="rounded-circle" width="100" height="100">
+                    <div class="card shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+                        <img class="card-img-top" src="{% static 'images/smart-fridge.png' %}" alt="Smart Fridge" width="100" height="100">
                         <div class="card-body">
                             <h4 class="card-title text-center"> Smart Fridge </h4>
                             <p class="card-subtitle text-center text-muted mb-3"> Location: Kitchen </p>
-                            <a href=""> <button class="btn btn-primary btn-block mb-2"> Connect </button> </a>
+                            <form action="{% url 'ConnectDevice' %}" method="POST">
+                                {% csrf_token %}
+                                <button class="btn btn-primary btn-block mb-2"> Connect </button>
+                            </form>
                             <a href=""> <button class="btn btn-dark btn-block"> Configure </button> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <img src="{% static 'images/amazon-echo.jpg' %}" alt="Amazon Echo" class="rounded-circle" width="100" height="100">
+                    <div class="card shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+                        <img class="card-img-top" src="{% static 'images/amazon-echo.jpg' %}" alt="Amazon Echo" width="100" height="100">
                         <div class="card-body">
                             <h4 class="card-title text-center"> Amazon Echo </h4>
                             <p class="card-subtitle text-center text-muted mb-3"> Location: Bedroom </p>
-                            <a href=""> <button class="btn btn-primary btn-block mb-2"> Connect </button> </a>
+                            <form action="{% url 'ConnectDevice' %}" method="POST">
+                                {% csrf_token %}
+                                <button class="btn btn-primary btn-block mb-2"> Connect </button>
+                            </form>
                             <a href=""> <button class="btn btn-dark btn-block"> Configure </button> </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <img src="{% static 'images/doorbell-cam.PNG' %}" alt="Doorbell Cam" class="rounded-circle" width="100" height="100">
+                    <div class="card shadow-lg p-3 mb-5 mt-5 bg-white rounded">
+                        <img class="card-img-top" src="{% static 'images/doorbell-cam.PNG' %}" alt="Doorbell Cam" width="100" height="100">
                         <div class="card-body">
                             <h4 class="card-title text-center"> Doorbell Cam </h4>
                             <p class="card-subtitle text-center text-muted mb-3"> Location: Front Door </p>
-                            <a href=""> <button class="btn btn-primary btn-block mb-2"> Connect </button> </a>
+                            <form action="{% url 'ConnectDevice' %}" method="POST">
+                                {% csrf_token %}
+                                <button class="btn btn-primary btn-block mb-2"> Connect </button>
+                            </form>
                             <a href=""> <button class="btn btn-dark btn-block"> Configure </button> </a>
                         </div>
                     </div>
