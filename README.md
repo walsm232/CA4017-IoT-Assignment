@@ -1,4 +1,5 @@
 <h1> <div align="center"> CA4017 - IoT Management Assignment </div> </h1>
+<h2> <div align="center"> Grade: 70% </div> </h2>
 
 <hr>
 <div align="center"> <img src="readme-image.PNG"> </div>
